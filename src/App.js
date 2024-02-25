@@ -17,13 +17,11 @@ const App = () => {
         <div className="split">
           <div className="first">
             <Experience />
-            <Education />
           </div>
           <div>
+            <Education />
             <Skills />
-            <Languages />
             <Projects />
-            <Interests />
           </div>
         </div>
       </div>

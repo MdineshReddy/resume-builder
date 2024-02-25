@@ -11,11 +11,16 @@ const Projects = () => {
           <div className="project" key={index}>
             <p className="title">
               {item.title}{" "}
-              <a href={item.link} target="_blank" rel="noreferrer">
-                <BiLinkExternal />
-              </a>
+              {item.link && (
+                <a href={item.link} target="_blank" rel="noreferrer">
+                  <BiLinkExternal />
+                </a>
+              )}
             </p>
             <p className="description">{item.description}</p>
+            <p>
+              <b>Technologies Used: </b> {item.technologies}
+            </p>
           </div>
         ))}
       </div>

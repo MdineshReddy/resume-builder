@@ -16,10 +16,12 @@ const Education = () => {
 
                 <i>{item.location}</i>
               </div>
-              <p className="marks">
-                <span>gpa: {item.gpa}</span>
-                <span>{item.percentage} %</span>
-              </p>
+              {item.gpa && (
+                <p className="marks">
+                  <span>gpa: {item.gpa}</span>
+                  <span>{item.percentage} %</span>
+                </p>
+              )}
             </div>
           );
         })}
