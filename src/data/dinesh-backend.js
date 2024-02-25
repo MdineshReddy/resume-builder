@@ -6,7 +6,8 @@ const data = {
   github: "https://github.com/MdineshReddy",
   location: "Hyderabad",
   summary:
-    "Experienced <b>full-stack developer</b> with a solid background in Java, Spring Boot, and MERN (MongoDB, Express.js, React, Node.js) stack technologies. Possessing <b>two years</b> of hands-on experience, I have successfully contributed to the development of diverse web applications.",
+    "Skilled <b>full-stack developer</b> with a robust foundation in Java, Spring Boot, and MERN (MongoDB, Express.js, React, Node.js) stack technologies. Bringing <b>two years</b> of hands-on experience to the table, I have successfully contributed to the development of diverse web applications.",
+
   experiences: [
     {
       title: "Specialist Programmer",
@@ -14,10 +15,10 @@ const data = {
       dates: "27/02/2023 - Current",
       location: "Hyderabad",
       details: [
-        "Currently working as a Spring Boot and Node.js Developer.",
-        "Developed REST based Microservices using the Spring Boot.",
-        "Worked on the GraphQL queries in an E.Commerce Product.",
-        "Built the Notifications API using Node.js, Express.js, MongoDB and REST API.",
+        "Developed and maintained REST-based Microservices using Spring Boot, ensuring efficient and scalable solutions.",
+        "Implemented GraphQL queries using Node.JS and Apollo GraphQL in an E-Commerce Product to enhance data retrieval and optimize performance.",
+        "Created Notifications API using Node.js, Express.js, and MongoDB.",
+        "Actively reviewed user feedback, incorporating valuable insights to meet project goals and exceed user expectations.",
       ],
     },
     {
@@ -44,12 +45,8 @@ const data = {
   ],
   skills: [
     {
-      title: "Basics",
-      items: ["HTML5", "CSS3", "JavsScript"],
-    },
-    {
-      title: "React",
-      items: ["React", "Redux"],
+      title: "Java",
+      items: ["Java", "Spring Boot", "Spring Data JPA", "Spring Security"],
     },
     {
       title: "Node",
@@ -64,10 +61,16 @@ const data = {
         "GraphQL",
       ],
     },
+
     {
-      title: "Java",
-      items: ["Java", "Spring Boot", "Spring Data JPA", "Spring Security"],
+      title: "Basics",
+      items: ["HTML5", "CSS3", "JavsScript"],
     },
+    {
+      title: "React",
+      items: ["React", "Redux"],
+    },
+
     { title: "Verion Control", items: ["Git", "GitHub"] },
     {
       title: "Miscellaneous",
@@ -90,6 +93,7 @@ const data = {
       link: "https://mdrweb.onrender.com/",
       description:
         "MDR Web Docs is a personal project of mine built using React, Node and ExpressJS which is a personal repo of technical articles that helped in my journey of becoming a Full Stack developer.",
+      technologies: "React, Redux, NodeJS and ExpressJS",
     },
   ],
   interests: ["Gaming", "Movies", "Coding", "Outing"],
